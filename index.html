@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Bootstrap's link-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <!--Custom css link-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!--Font's link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!--FontAwesome icons-->
+    <script
+      src="https://kit.fontawesome.com/7c7471db46.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--Swiper's link-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <title>EuropeStage</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-brand fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            class="logo"
+            src="assets/images/logo_es_white.svg"
+            width="80"
+            height="35"
+            alt="ES Logo"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#events">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About us</a>
+            </li>
+            <!--<li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>-->
+            <li class="nav-item pe-2">
+              <a class="nav-link" href="#contact">Contacts</a>
+            </li>
+            <div class="vr"></div>
+            <li class="nav-item pe-2 ps-2">
+              <a class="nav-link" href="login.html">
+                My Account <i class="fa-regular fa-circle-user"></i>
+              </a>
+            </li>
+            <div class="vr"></div>
+          </ul>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/groups/322698860913147"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a href="https://www.instagram.com/magenta_poledance/"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--Intro section-->
+    <section
+      id="home"
+      class="bg-cover intro-section"
+      style="background-image: url(assets/images/stage.jpg)"
+    >
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1>WE LOVE DANCING</h1>
+            <p></p>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <a href="#" class="btn btn-main">I want to compete</a>
+            </div>
+            <div class="col-6">
+              <a href="#" class="btn btn-main">Tickets for Spectators</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Events section-->
+    <section id="events" class="section-padding">
+      <div id="particles-js"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 section-header">
+            <h1 class="fw-semibold">WHAT IS YOUR NEXT DESTINATION?</h1>
+            <div class="line"></div>
+            <p>
+              Each destination has its own name, location, and even a distinct
+              character.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--Events slider section-->
+      <div class="container swiper">
+        <div class="slider-wrapper">
+          <div class="card-list swiper-wrapper">
+            <div class="card-item swiper-slide">
+              <img
+                src="assets/images/Civic-Hall.jpg"
+                alt="Civic Hall"
+                class="event-poster"
+              />
+              <div class="title">
+                <a href=""> See More </a>
+              </div>
+            </div>
+
+            <div class="card-item swiper-slide">
+              <img
+                src="assets/images/The-X-Belek.jpg"
+                alt="The X Belek"
+                class="event-poster"
+              />
+              <div class="title">
+                <a href=""> See More </a>
+              </div>
+            </div>
+
+            <div class="card-item swiper-slide">
+              <img
+                src="assets/images/ATTA_CENTRE.jpg"
+                alt="ATTA CENTRE"
+                class="event-poster"
+              />
+              <div class="title">
+                <a href=""> See More </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <!--Statistics section-->
+    <section
+      class="bg-cover about"
+      style="background-image: url(assets/images/DSC09166.jpg)"
+    >
+      <div class="overlay2"></div>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-12">
+            <h1>YES, IT’S ALL ABOUT EUROPESTAGE:</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-3">
+            <i class="fa-solid fa-child-reaching"></i>
+            <h1 class="mt-3 mb-2">8</h1>
+            <p>Years</p>
+          </div>
+
+          <div class="col-md-3">
+            <i class="fa-solid fa-child-reaching"></i>
+            <h1 class="mt-3 mb-2">5k</h1>
+            <p>Dancers</p>
+          </div>
+
+          <div class="col-md-3">
+            <i class="fa-solid fa-people-group"></i>
+            <h1 class="mt-3 mb-2">10k</h1>
+            <p>Spectators</p>
+          </div>
+
+          <div class="col-md-3">
+            <i class="fa-solid fa-user-tie"></i>
+            <h1 class="mt-3 mb-2">100</h1>
+            <p>Partners</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Our Features section-->
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 section-header">
+            <h1>WHY EUROPESTAGE IS YOUR BEST CHOISE</h1>
+            <div class="line"></div>
+            <p>
+              With passion and dedication, we create vibrant dance events that
+              bring together dancers of all levels, helping them unlock their
+              potential and showcase their talents on an international stage.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Team section
+    <section id="team" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 section-header">
+            <h1>Meet Our Team</h1>
+            <div class="line"></div>
+            <p>
+              With passion and dedication, we create vibrant dance events that
+              bring together dancers of all levels, helping them unlock their
+              potential and showcase their talents on an international stage.
+            </p>
+          </div>
+        </div>
+
+        <div class="team-info">
+          <div class="row">
+            <div class="col-6 text-center" data-aos="fade-up">
+              <ul>
+                <li id="Anastasiia">
+                  <h6><i class="ri-user-heart-line"></i> Anastasiia Markina</h6>
+
+                  <p>Customer Support, Judges coordinator and Media</p>
+                  <p>
+                    <i class="fa-solid fa-envelope"></i> info@europestage.com
+                  </p>
+                </li>
+                <li id="Anzelika">
+                  <h6><i class="ri-user-heart-line"></i> Anželika Genise</h6>
+
+                  <p>Design, Tech Department</p>
+                  <p>
+                    <i class="fa-solid fa-envelope"></i> info@europestage.com
+                  </p>
+                </li>
+                <li id="Valerija">
+                  <h6>
+                    <i class="ri-user-heart-line"></i> Valerija Dabašinska
+                  </h6>
+
+                  <p>Customer Support, Tech Department</p>
+                  <p>
+                    <i class="fa-solid fa-envelope"></i> info@europestage.com
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 text-center" data-aos="fade-up">
+              <ul>
+                <li id="Alex">
+                  <h6><i class="ri-user-star-line"></i> Alex Paris</h6>
+
+                  <p>Finance and Partnership</p>
+                  <p>
+                    <i class="fa-solid fa-envelope"></i> info@europestage.com
+                  </p>
+                </li>
+                <li id="Simon">
+                  <h6><i class="ri-user-star-line"></i> Simon Fennell</h6>
+
+                  <p>Tech Department</p>
+                  <p>
+                    <i class="fa-solid fa-envelope"></i> info@europestage.com
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+-->
+    <!--Footer section-->
+
+    <!--Scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/particles.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
