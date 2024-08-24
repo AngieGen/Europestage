@@ -94,7 +94,23 @@ section {
   text-align: center;
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.725);
 }
+@media (max-width: 768px) {
+ .intro-section h1 {
+  font-size: 80px;
+  font-weight: 800;
+ }
+.section-header h1 {
+  font-size: 40px;
+}
 
+.section-header p {
+  font-size: 15px;
+}
+
+
+
+
+}
 /* Event section slider */
 .slider-wrapper {
   overflow: hidden;
@@ -173,11 +189,24 @@ section {
 
 /* Statistics */
 .stats h1 {
-  margin-top: 40px;
+  margin-top: 30px;
 }
-
-
-
+.stats i {
+  font-size: 30px;
+  margin-top: 15px;
+}
+.stats p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+@media (max-width: 768px) {
+ .stats h2 {
+  font-size: 50px;
+ }
+ .stats i {
+  margin-top: 15px;
+}
+}
 /* Particles */
 #particles-js {
   position: absolute;
