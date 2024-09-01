@@ -79,7 +79,6 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-image: url(assets/images/stage.jpg)
 }
 .video-bg {
   height: 100vh;
@@ -104,8 +103,6 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  /*margin-top: 70px;*/
-  
 }
 .intro-section h1 {
   font-size: 110px;
