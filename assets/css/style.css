@@ -387,3 +387,63 @@ footer a {
     margin: 30px 30px;
   }
 }
+/* Event page */
+.card-event .background {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.card-event img {
+  width: 220px;
+  display: block;
+  margin: 0 auto;
+}
+.card-event {
+  position: relative;
+  text-align: center;
+  margin: 80px 0 80px 0;
+  box-shadow: 5px 5px 45px #f45353;
+  width: 600px;
+  height: 400px;
+  background: rgb(0, 0, 0);
+  z-index: 1;
+}
+.card-event h2 {
+  font-size: 100px;
+  font-weight: 800;
+  margin: 30px 0 10px 0;
+}
+.card-event .date {
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  font-weight: 600;
+}
+.card-event .year {
+  -webkit-text-stroke: 1px #ffffff;
+  color: black;
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+  font-weight: 800;
+}
+.card-event .venue {
+  margin-top: 10px;
+}
+.tickets-btn {
+  background: red;
+  border-radius: 4px;
+  padding: 10px 10px 10px 10px;
+  width: 150px;
+  margin-top: 40px;
+}
+.tickets-btn a {
+  text-decoration: none;
+  color: rgb(255, 254, 254);
+  font-weight: 600;
+  font-size: 20px;
+}
